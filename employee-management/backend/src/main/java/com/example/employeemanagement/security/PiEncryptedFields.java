@@ -16,6 +16,8 @@ final class PiEncryptedFields {
     static {
         add("com.example.employeemanagement.entity.Employee", "email", "email_enc");
         add("com.example.employeemanagement.entity.Employee", "firstName", "first_name_enc");
+        add("com.example.employeemanagement.entity.Employee", "lastName", "last_name_enc");
+        add("com.example.employeemanagement.entity.Employee", "phone", "phone_enc");
     }
 
     private PiEncryptedFields() {}
